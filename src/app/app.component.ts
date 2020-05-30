@@ -10,9 +10,9 @@ import { Employee } from './Models/employee';
 export class AppComponent {
 
   employees: Array<Employee> = [
-    { id: 1, name: "Ryan", country: "USA" },
-    { id: 2, name: "Jhon", country: "Canada" },
-    { id: 3, name: "Zac", country: "USA" }
+    { id: 1, name: "Ryan Gosling", country: "USA" },
+    { id: 2, name: "John Cena", country: "USA" },
+    { id: 3, name: "Zac Efron", country: "USA" }
   ];
 
   selectedEmployee: Employee = new Employee();
